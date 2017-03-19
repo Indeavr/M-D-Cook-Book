@@ -66,6 +66,7 @@ header {
     justify-content: flex-end;
     margin-left: 5%;
     width: 17.5%;
+    font-family: "Berlin Sans FB";
 }
 
 header > nav {
@@ -151,7 +152,7 @@ main {
     display: inline-block;
     width: 30%;
     /*border: 1px solid rebeccapurple;*/
-    margin-right: 4.6%;
+    margin-right: 4.0%;
     padding: 15px;
     background-color: antiquewhite;
 }
@@ -197,10 +198,89 @@ figure {
     color: #000;
 
 }
+/*_____________________ALL-RECIPES________________*/
+.all-recipes{
+    margin-bottom: 70px;
+}
 
+.all-recipes article {
+    display: inline-block;
+    width: 20%;
+    /*border: 1px solid rebeccapurple;*/
+    margin-right: 4.0%;
+    padding: 15px;
+    background-color: rgba(234, 180, 62, 0.64);
+}
 
+.all-recipes article:last-of-type {
+    margin-right: 0;
+}
 
+.all-recipes-heading {
+    font-size:42px;
+    font-family: "Cordia New";
+    color: #579335;
+    text-align: center;
+    margin-top: 100px;
+}
 
+.category-switch {
+    padding: 40px;
+}
+
+.category-switch li{
+    display: inline-block;
+    margin-left:20px;
+    padding: 10px 15px;
+    border: 1px solid #937d78;
+    border-radius: 15px;
+}
+
+.category-switch li:hover {
+    cursor: pointer;
+    background-color:#930000;
+    color: #fff;
+}
+
+/*__________________FOOTER__________________*/
+
+footer{
+    display: flex;
+    height: 190px;
+    background: rgba(0, 0, 0, 0.82);
+}
+
+.footer-heading {
+    font-size:36px;
+    display: flex;
+    width: 20%;
+    align-items: center;
+}
+
+.nqkva-animaciika {
+    display: flex;
+    width:20%;
+}
+
+.footer-quick-access{
+    width:30%;
+}
+
+.footer-quick-access li{
+    display: block;
+    margin-top: 10px;
+}
+
+.footer-quick-access li a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.social-buttons {
+    display: flex;
+    width:30%;
+}
 
 
 
