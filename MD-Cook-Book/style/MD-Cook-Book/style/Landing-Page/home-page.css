@@ -1,0 +1,340 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Arvo|Dancing+Script|Inconsolata|Kanit');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*_________________HEADER_______________*/
+header {
+    display: flex;
+    background-color: #930000;
+    height: 95px;
+    width: 100%;
+    /*position: absolute;*/
+}
+
+.site-logo {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: flex-end;
+    margin-left: 5%;
+    width: 17.5%;
+    font-family: "Berlin Sans FB";
+}
+
+header > nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 77.5%;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    width: 60%;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 35px;
+    padding: 15px 1px;
+    /*border-bottom: 1px solid #27ff8e;*/
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    font-family: Alegreya
+}
+
+.music-player {
+    margin-right: 200px;;
+}
+
+.sign-in {
+    margin-right: 8px;
+    font-family:Dosis;
+}
+
+.right-nav {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-item-right {
+    display: inline-block;
+    margin-left: 35px;
+    padding: 15px 1px;
+
+}
+
+.nav-item-right a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+}
+
+/*__________MAIN__________*/
+main {
+
+}
+
+/*___________ARTICLE_SCROLLER_________*/
+.recipe-recommend {
+    padding: 120px 0;
+    background: url("img/table-BG.jpg") no-repeat ;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+.recipe a {
+    text-decoration: none;
+}
+
+.wrapper-scroller-menu {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.recipe-recommend article {
+    display: inline-block;
+    width: 30%;
+    /*border: 1px solid rebeccapurple;*/
+    margin: 0 1.0%;
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+.recipe-recommend article:last-of-type {
+    margin-right: 0;
+}
+
+figure {
+    display: inline-block;
+    width: 55%;
+    margin: 0 10px 10px 0;
+}
+
+.recipe img {
+    width: 100%;
+    height: auto;
+}
+
+.article-info {
+    display: inline-block;
+    width: 35%;
+    float: right;
+    color: #000;
+    text-align: center;
+
+}
+
+.article-info-title{
+    color: #930000;
+    font-size:20px;
+    padding: 10px 0;
+    /*font-family: Inconsolata;*/
+    font-weight: 600;
+}
+
+.recipe-name {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom:10px;
+    font-family: Dancing Script;
+    font-weight: bold;
+}
+
+.short-description {
+    color: #000;
+
+}
+/*_____________________ALL-RECIPES________________*/
+.all-recipes{
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.all-recipes article {
+    display: inline-block;
+    width: 20%;
+    /*border: 1px solid rebeccapurple;*/
+    margin-right: 4.0%;
+    padding: 15px;
+    background-color: rgba(234, 180, 62, 0.64);
+}
+
+.all-recipes article:last-of-type {
+    margin-right: 0;
+}
+
+.all-recipes-heading {
+    font-size:42px;
+    font-family: "Cordia New";
+    color: #579335;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.category-switch {
+    padding: 40px;
+}
+
+.category-switch li{
+    display: inline-block;
+    margin-left:20px;
+    padding: 10px 15px;
+    border: 1px solid #937d78;
+    border-radius: 15px;
+}
+
+.category-switch li:hover {
+    cursor: pointer;
+    background-color:#930000;
+    color: #fff;
+}
+
+/*__________________FOOTER__________________*/
+
+footer{
+    display: flex;
+    height: 190px;
+    background: rgba(0, 0, 0, 0.82);
+}
+
+.footer-heading {
+    font-size:36px;
+    display: flex;
+    width: 20%;
+    align-items: center;
+}
+
+.nqkva-animaciika {
+    display: flex;
+    width:20%;
+}
+
+.footer-quick-access{
+    width:30%;
+}
+
+.footer-quick-access li{
+    display: block;
+    margin-top: 10px;
+}
+
+.footer-quick-access li a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.social-buttons {
+    display: flex;
+    width:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
