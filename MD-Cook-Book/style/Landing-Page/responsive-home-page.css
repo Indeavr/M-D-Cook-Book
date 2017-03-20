@@ -1,0 +1,112 @@
+/*_________________________HEADER______________________*/
+
+@media all and (max-width: 1320px) {
+    .all-recipes .article-info {
+        font-size: 15px;
+    }
+
+    .all-recipes .article-info-title {
+        font-size: 14px;
+    }
+
+    .fa-star-o {
+        font-size: 11px;
+    }
+
+    .footer-heading {
+
+    }
+}
+
+@media all and (max-width: 1175px) {
+    .all-recipes article {
+        width: 28%;
+    }
+
+    .all-recipes article .recipe-name {
+        font-size: 1.4em;
+    }
+}
+
+@media all and (max-width: 960px) {
+    .nav-menu {
+        margin-left: 5%;
+    }
+
+    .site-logo {
+        font-size: 24px;
+    }
+
+    .sign-in a {
+        font-size: 19px;
+    }
+
+    .nav-item a {
+        font-size: 20px;
+    }
+    .footer-quick-access{
+        width:25%;
+    }
+
+    .social-buttons {
+        width:35%;
+    }
+
+    .social-buttons li a{
+        font-size: 32px;
+    }
+}
+
+@media all and (max-width: 850px) {
+    .all-recipes article {
+        width: 45%;
+    }
+
+    .all-recipes .article-info {
+        font-size: 18px;
+    }
+
+    .all-recipes .article-info-title {
+        font-size: 18px;
+    }
+
+    .fa-star-o {
+        font-size: 15px;
+    }
+
+    .recipe-recommend .article-info {
+        font-size: 24px;
+    }
+
+    .recipe-recommend .article-info li {
+        margin: 20px auto;
+    }
+
+    .all-recipes .article-info li {
+        margin: 10px auto;
+    }
+
+    .recipe-recommend.article-info-title {
+        font-size: 22px;
+    }
+     .recipe-recommend .fa-star-o {
+        font-size:24px;
+    }
+
+
+
+     /*___________*/
+    .dropdown-menu{
+        display: flex;
+        width: 100%;
+        align-items:center;
+        justify-content: flex-end;
+        padding-right: 25px;
+
+    }
+    .nav-menu, .right-nav{
+        display: none;
+    }
+
+
+}
