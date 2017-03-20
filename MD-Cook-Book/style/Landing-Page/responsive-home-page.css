@@ -44,15 +44,16 @@
     .nav-item a {
         font-size: 20px;
     }
-    .footer-quick-access{
-        width:25%;
+
+    .footer-quick-access {
+        width: 25%;
     }
 
     .social-buttons {
-        width:35%;
+        width: 35%;
     }
 
-    .social-buttons li a{
+    .social-buttons li a {
         font-size: 32px;
     }
 }
@@ -89,24 +90,67 @@
     .recipe-recommend.article-info-title {
         font-size: 22px;
     }
-     .recipe-recommend .fa-star-o {
-        font-size:24px;
+
+    .recipe-recommend .fa-star-o {
+        font-size: 24px;
     }
 
+    /*___________*/
+    /*.dropdown-menu{*/
+        /*display: block;*/
+    /*}*/
+    /*.nav-menu, .right-nav{*/
+        /*display: none;*/
+    /*}*/
 
-
-     /*___________*/
-    .dropdown-menu{
-        display: flex;
+    .site-logo {
+        padding: 35px 0;
+        display: block;
         width: 100%;
-        align-items:center;
-        justify-content: flex-end;
-        padding-right: 25px;
-
-    }
-    .nav-menu, .right-nav{
-        display: none;
+        text-align: center;
+        font-size:40px;
     }
 
+    header {
+        display: block;
+        height: auto;
+    }
+
+    header > nav {
+        display: block;
+        width: 100%;
+    }
+
+    .nav-menu {
+        margin-left: 0;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .nav-menu li {
+        display: block;
+        width: 100%;
+        margin:0;
+
+    }
+
+    .right-nav {
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .right-nav li{
+        margin:0;
+    }
+
+    .right-nav li:last-child {
+        margin-bottom: 10px;
+        margin-left:0;
+    }
+    .dropdown-menu:hover .right-nav{
+        display: block;
+    }
 
 }
