@@ -1,0 +1,284 @@
+/*_________________________HEADER______________________*/
+
+@media all and (max-width: 1320px) {
+    .all-recipes .article-info {
+        font-size: 15px;
+    }
+
+    .all-recipes .article-info-title {
+        font-size: 14px;
+    }
+
+    .fa-star-o {
+        font-size: 11px;
+    }
+
+    .footer-heading {
+
+    }
+}
+
+@media all and (max-width: 1175px) {
+    .all-recipes article {
+        width: 28%;
+    }
+
+    .all-recipes article .recipe-name {
+        font-size: 1.4em;
+    }
+}
+
+@media all and (max-width: 960px) {
+    .nav-menu {
+        margin-left: 5%;
+    }
+
+    .site-logo {
+        font-size: 24px;
+    }
+
+    .sign-in a {
+        font-size: 19px;
+    }
+
+    .nav-item a {
+        font-size: 20px;
+    }
+
+    .footer-quick-access {
+        width: 25%;
+    }
+
+    .social-buttons {
+        width: 35%;
+    }
+
+    .social-buttons li a {
+        font-size: 32px;
+    }
+}
+
+@media all and (max-width: 850px) {
+    .all-recipes article {
+        width: 45%;
+    }
+
+    .all-recipes .article-info {
+        font-size: 18px;
+    }
+
+    .all-recipes .article-info-title {
+        font-size: 18px;
+    }
+
+    .fa-star-o {
+        font-size: 15px;
+    }
+
+    .recipe-recommend .article-info {
+        font-size: 24px;
+    }
+
+    .recipe-recommend .article-info li {
+        margin: 20px auto;
+    }
+
+    .all-recipes .article-info li {
+        margin: 10px auto;
+    }
+
+    .recipe-recommend.article-info-title {
+        font-size: 22px;
+    }
+
+    .recipe-recommend .fa-star-o {
+        font-size: 24px;
+    }
+
+    /*___________*/
+    /*.dropdown-menu{*/
+    /*display: block;*/
+    /*}*/
+    /*.nav-menu, .right-nav{*/
+    /*display: none;*/
+    /*}*/
+    .site-logo {
+        padding: 35px 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    header {
+        display: block;
+        height: auto;
+    }
+
+    header > nav {
+        display: block;
+        width: 100%;
+    }
+
+    .nav-menu {
+        margin-left: 0;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .nav-menu li {
+        display: block;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .right-nav {
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .right-nav li {
+        margin: 0;
+    }
+
+    .right-nav li:last-child {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .dropdown-menu:hover .right-nav {
+        display: block;
+    }
+
+    .category-switch {
+        text-align: center;
+    }
+
+    .category-switch li {
+        display: block;
+        width: 50%;
+        text-align: center;
+        margin:8px auto;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .all-recipes .recipe {
+        width: 80%;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .footer-quick-access {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        border: none;
+        text-align: center;
+    }
+
+    .footer-heading {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-buttons {
+        display: block;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.82);
+        margin-top: 15px;
+    }
+
+    .social-buttons li{
+        width: auto;
+    }
+
+    .wrapper-scroller-menu article figure {
+        display: block;
+        width: 100%;
+        background-color: #FAF0E6;
+    }
+
+    .wrapper-scroller-menu article figure img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .wrapper-scroller-menu article {
+        display: block;
+        width: 100%;
+    }
+
+    .wrapper-scroller-menu article .article-info {
+        display: block;
+        width: 100%;
+    }
+
+    .wrapper-scroller-menu article {
+        height: auto;
+    }
+
+}
+
+@media all and (max-width: 380px) {
+    .all-recipes article figure {
+        display: block;
+        width: 100%;
+        background-color: #FAF0E6;
+    }
+
+    .all-recipes article figure img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .all-recipes article {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom:20px;
+    }
+
+    .all-recipes article .article-info {
+        display: block;
+        width: 100%;
+    }
+
+    .all-recipes article {
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
